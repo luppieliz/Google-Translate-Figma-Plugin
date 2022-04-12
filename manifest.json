@@ -1,0 +1,11 @@
+{
+  "name": "Language-Tester V1.1",
+  "id": "00000000",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": [
+    "figma",
+    "figjam"
+  ]
+}
