@@ -19,3 +19,23 @@ This repo is using:
 * React + Webpack
 * TypeScript
 * Prettier precommit hook
+
+Sample plugins using the [Figma + FigJam Plugin API][docs].
+
+To make a feature request, file a bug report, or ask a question about
+developing plugins, check out the available [resources][help].
+
+## Getting Started
+
+These plugins are written using [TypeScript][ts] to take advantage of Figma's typed plugin API.
+To install TypeScript, first [install Node.js][node]. Then:
+
+    $ npm install typescript
+
+Next install the packages that the samples depend on.
+
+    $ npm install
+
+Now, to compile plugin :
+
+    $ tsc
