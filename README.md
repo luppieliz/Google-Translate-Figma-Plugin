@@ -1,4 +1,5 @@
 # Google Translate API Figma Plugin
+Used the google [translate API](https://cloud.google.com/translate)
 
 ## Used Figma Plugin React Template for a quick start~
 
