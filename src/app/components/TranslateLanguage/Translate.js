@@ -7,7 +7,7 @@ export default async function translateLanguage(text, targetLanguage) {
     // send request
     const {data} = await axios
         .post(
-            `https://translation.googleapis.com/language/translate/v2?target=${targetLanguage}&key=AIzaSyCkaGXVXUig8mhdWxc0UnscUIT_lIWOQmA&q=${text}`,
+            `https://translation.googleapis.com/language/translate/v2?target=${targetLanguage}&key={GET_YOUR_OWN_API_kEY}=${text}`,
             {},
             {}
         )
